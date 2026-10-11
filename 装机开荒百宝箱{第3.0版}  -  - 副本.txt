@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>装机开荒百宝箱</title>
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑}
+body{
+background-image: url("https://s41.ax1x.com/2026/09/27/pn3Xen1.jpg");
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+background-color:#000;
+color:#eee;
+padding:40px;
+max-width:1150px;
+margin:0 auto;
+}
+h1{text-align:center;color:#5ca2ff;margin-bottom:50px;font-size:28px}
+h2{margin:36px 0 14px;border-left:5px solid #5ca2ff;padding-left:12px}
+.desc{color:#aaa;font-size:14px;margin-bottom:12px}
+.card{display:inline-flex;align-items:center;gap:9px;background:rgba(30,30,30,0.7);padding:10px 16px;margin:8px 6px;border-radius:6px;text-decoration:none;color:#93c8ff;transition:0.2s}
+.card:hover{background:#5ca2ff;color:#000}
+.icon{
+  width:20px;
+  height:20px;
+  margin-right:9px;
+  vertical-align:middle;
+}
+#lockBox{margin-top:12px;padding:18px;background:rgba(26,26,26,0.7);border-radius:7px}
+#pwdInput{padding:8px;width:240px;background:#2a2a2a;border:1px solid #444;color:#fff;outline:none;font-size:15px}
+#submitBtn{padding:8px 18px;background:#5ca2ff;border:none;color:#000;margin-left:10px;cursor:pointer;border-radius:4px;font-weight:bold}
+#errTip{color:#ff6666;font-size:13px;margin-top:10px}
+</style>
+</head>
+<body>
+<h1>装机开荒百宝箱</h1>
+
+<h2>一、游戏平台</h2>
+<p class="desc">主流游戏客户端官方页面</p >
+<a class="card" target="_blank" href="https://store.steampowered.com/about ">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3Xsjs.png" class="icon">
+    Steam
+</a >
+<a class="card" target="_blank" href="https://www.epicgames.com/help/?lang=zh-CN">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZZ9J.png" class="icon">
+    Epic
+</a >
+<a class="card" target="_blank" href="https://www.ea.com/ea-app?isLocalized=true">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3X4CF.png" class="icon">
+    EA
+</a >
+<a class="card" target="_blank" href="https://www.battlenet.com.cn/">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3Xf4U.png" class="icon">
+    战网
+</a >
+<a class="card" target="_blank" href="https://zh-cn.ubisoft.com/ubisoftconnect ">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYewss.png" class="icon">
+    Ubisoft Connect
+</a >
+<a class="card" target="_blank" href="https://www.leigod.com/">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZANF.png" class="icon">
+     雷神加速器
+</a >
+
+<h2>二、硬件检测&装机工具</h2>
+<p class="desc">重装系统、硬件检测专用工具</p >
+<a class="card" target="_blank" href="https://www.wepe.com.cn/">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZXb6.png" class="icon">
+    微PE工具箱
+</a >
+<a class="card" target="_blank" href="https://www.tbtool.cn/">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZmcR.jpg" class="icon">
+    图吧工具箱
+</a >
+<a class="card" target="_blank" href="https://www.adobe.com/products/aftereffects.html">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYeoo6.png" class="icon">
+    AE影视特效
+</a >
+
+<h2>三、显卡/核显驱动下载</h2>
+<p class="desc">官方纯净驱动，解决花屏卡顿      重装系统代码[irm https://get.activated.win | iex]</p >
+<a class="card" target="_blank" href="https://www.intel.cn/content/www/cn/zh/ark.html">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGVXtg.png" class="icon">
+    Intel英特尔
+</a >
+<a class="card" target="_blank" href="https://www.amd.com/zh-hans/support">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3X6un.png" class="icon">
+    AMD驱动
+</a >
+<a class="card" target="_blank" href="https://www.nvidia.cn/geforce/drivers/">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3XgH0.png" class="icon">
+    NVIDIA英伟达
+</a >
+
+<h2>四、显示器检测工具</h2>
+<p class="desc">测坏点、漏光、刷新率、拖影</p >
+<a class="card" target="_blank" href="https://screen.bmcx.com/#welcome">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZEh4.png" class="icon">
+    屏幕纯色测试
+</a >
+<a class="card" target="_blank" href="https://testufo.com/">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3XWNT.png" class="icon">
+    UFO刷新率测试
+</a >
+
+<h2>五、电脑聊天软件</h2>
+<p class="desc">PC端官方下载渠道</p >
+<a class="card" target="_blank" href="https://weixin.qq.com/">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZ63j.png" class="icon">
+    微信PC版
+</a >
+<a class="card" target="_blank" href="https://im.qq.com/pcqq/index.shtml">
+    <img src="https://s41.ax1x.com/2026/09/30/pnGZe39.png" class="icon">
+    QQ电脑版
+</a >
+
+<h2>六、壁纸资源平台</h2>
+<p class="desc">高清电脑壁纸资源入口</p >
+<a class="card" target="_blank" href="https://haowallpaper.com/">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3XREV.png" class="icon">
+    哲风壁纸
+</a >
+<a class="card" target="_blank" href="https://ifdian.net/">
+    <img src="https://s41.ax1x.com/2026/09/27/pn3XcBq.png" class="icon">
+    爱发电
+</a >
+
+<h2>七、电脑音乐软件</h2>
+<p class="desc">PC端官方下载渠道</p >
+<a class="card" target="_blank" href="https://music.douyin.com/qishui">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYe0Ln.png" class="icon">
+    汽水音乐
+</a >
+<a class="card" target="_blank" href="https://music.163.com/">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYedMj.png" class="icon">
+    网易云音乐
+</a >
+<a class="card" target="_blank" href="https://y.qq.com/">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYeDZq.png" class="icon">
+    QQ音乐
+</a >
+
+<h2>八、桌面美化</h2>
+<p class="desc">好用/实用/</p >
+<a class="card" target="_blank" href="https://zhutix.com/wallpaper/">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYmJmR.png" class="icon">
+    致美化
+</a>
+    <a class="card" target="_blank" href="https://zhutix.com/tools/rainmeter-dw/">
+    <img src="https://dl.zhutix.net/2019/09/Rainmeter.png" class="icon">
+    Rainmeter（雨滴）
+</a>
+<a class="card" target="_blank" href="https://soft.3dmgame.com/down/336714.html">
+    <img src="https://img.3dmgame.com/uploads/images/thumbnews/20250307/1741332710_151534.png" class="icon">
+    Nexus
+</a>
+<a class="card" target="_blank" href="ms-windows-store://pdp/?ProductId=9pf4kz2vn4w9">
+  <img src="https://s41.ax1x.com/2026/10/06/pntEt9e.png" class="icon">
+  TranslucentTB
+</a>
+
+<h2>九、实用工具</h2>
+<p class="desc">好用/实用/</p >
+<a class="card" target="_blank" href="https://github.com/">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYmrXd.png" class="icon">
+    GitHub（资源多的开源网站）
+</a>
+<a class="card" target="_blank" href="https://7-zip.org/download.html">
+    <img src="https://s41.ax1x.com/2026/10/04/pnYmWh8.jpg" class="icon">
+    7‑zip（强大的解压缩软件）
+</a>
+<a class="card" target="_blank" href="https://potplayer.tv/">
+    <img src="https://s41.ax1x.com/2026/10/06/pntEl0x.png" class="icon">
+    potplayer（强大的播放器）
+</a>
+<a class="card" target="_blank" href="ms-windows-store://pdp/?ProductId=9njkn37cr6hj">
+  <img src="https://s41.ax1x.com/2026/10/06/pntVRPO.png" class="icon">
+  FlyingMouse Format（好用的格式转换器）
+</a>
+<a class="card" target="_blank" href="https://obsproject.com/zh-cn/welcome">
+    <img src="https://s41.ax1x.com/2026/10/06/pntE176.png" class="icon">
+    OBS Studio（强大的录屏软件）
+</a>
+
+<h2>十、私有NAS系统镜像库（仅内网访问，需密码）</h2>
+<p class="desc">存放Windows原版镜像，仅家里WiFi可加载</p >
+<div id="lockBox">
+<input id="pwdInput" placeholder="输入访问密码">
+<button id="submitBtn">确认解锁NAS</button>
+<p id="errTip"></p >
+</div>
+
+<script>
+const truePassword = "123654";
+const nasMirrorUrl = "http://192.168.1.105/win镜像/";
+const inputBox = document.getElementById("pwdInput");
+const submitBtn = document.getElementById("submitBtn");
+const errorTip = document.getElementById("errTip");
+
+submitBtn.onclick = function(){
+    let inputPwd = inputBox.value.trim();
+    if(inputPwd === truePassword){
+        errorTip.textContent = "";
+        window.open(nasMirrorUrl,"_blank");
+    }else{
+        errorTip.textContent = "密码错误，无法访问镜像库";
+    }
+}
+</script>
+</body>
+</html>
